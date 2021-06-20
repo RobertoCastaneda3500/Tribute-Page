@@ -1,0 +1,68 @@
+/*import the font for css*/
+@import url("https://fonts.googleapis.com/css2?family=Suez+One&display=swap");
+
+body {
+  background-color: white;
+  padding-top: 25px;
+}
+#main {
+  background-color: lightgray;
+  padding-top: 25px;
+}
+#title {
+  font-family: "Suez One", serif;
+  text-align: center;
+  font-size: 40px;
+}
+
+p {
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  font-size: 18px;
+}
+/* image section*/
+#img-div {
+  background-color: white;
+  text-align: center;
+  margin: 0 15px 0 15px;
+  padding: 10px;
+}
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
+#img-caption {
+  font-size: 17px;
+  padding-top: 10px;
+}
+/* list items section */
+#list-heading {
+  margin: 50px 0;
+  text-align: center;
+}
+ul {
+  max-width: 550px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+  line-height: 1.6;
+}
+
+li {
+  margin: 16px 0;
+}
+/* more information section*/
+h3 {
+  text-align: center;
+}
+a:link {
+  text-decoration: none;
+  color: yellow;
+}
+a:hover {
+  text-decoration: underline;
+}
+a:visited {
+  color: red;
+}
